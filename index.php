@@ -17,7 +17,6 @@ if (validate()) {
     $response = processResponse();
 
     require_once(__DIR__.'/includes/complete.php');
-    
 } else {
     require_once(__DIR__.'/includes/form.php');
 }
