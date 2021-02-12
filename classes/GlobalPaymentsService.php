@@ -20,7 +20,7 @@ class GlobalPaymentsService {
     {
         $this->config = new GpEcomConfig();
         $this->config->merchantId = $merchantId;
-        $this->config->accountId = $accountId;
+        // $this->config->accountId = $accountId;
         $this->config->sharedSecret = $secret;
         $this->config->serviceUrl = $serviceUrl;
 
@@ -42,7 +42,9 @@ class GlobalPaymentsService {
                         ->withHostedPaymentData($hostedPaymentData)
                         ->withAddress($billingAddress, AddressType::BILLING)
                         ->withAddress($shippingAddress, AddressType::SHIPPING)
-                        ->serialize();      
+                        ->withInvoiceNumber($data['invoice_number'])
+                        ->serialize();    
+                          
         } catch (ApiException $e) {
             return json_encode([
                 'error' => $e->getMessage(),

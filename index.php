@@ -2,6 +2,7 @@
 
 require_once(__DIR__.'/bootstrap.php');
 require_once(__DIR__.'/includes/dispatch.php');
+require_once(__DIR__.'/includes/response.php');
 
 if (validate()) {
     try {
@@ -12,6 +13,11 @@ if (validate()) {
     }
 
     require_once(__DIR__.'/includes/iframe.php');
+} else if(isset($_POST) && !empty($_POST) && $_POST['hppResponse']) {
+    $response = processResponse();
+
+    require_once(__DIR__.'/includes/complete.php');
+    
 } else {
     require_once(__DIR__.'/includes/form.php');
 }

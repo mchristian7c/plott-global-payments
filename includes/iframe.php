@@ -6,9 +6,14 @@
             $(document).ready(function() {
                 let jsonFromRequestEndpoint = <?= $json ?>;
                 // jsonFromRequestEndpoint.MERCHANT_ID = <?= env('GP_MERCHANT_ID') ?>;
-
+                
                 RealexHpp.setHppUrl("<?= env('GP_PAYMENT_URL') ?>");
-                RealexHpp.embedded.init("paymentButton", "paymentWindow", "<?= env('APP_URL') ?>", jsonFromRequestEndpoint);
+                RealexHpp.embedded.init(
+                    "paymentButton", 
+                    "paymentWindow", 
+                    "<?= env('APP_URL') ?>", 
+                    jsonFromRequestEndpoint);
+
                 if (window.addEventListener) {
                     window.addEventListener('message', receiveMessage, false);
                 } else {
