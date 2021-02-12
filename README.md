@@ -34,3 +34,9 @@ Once the user has populated the form, we'll validate it, and then use `include/d
 When the JSON has been generated, our app will then spin up a second page (`includes/iframe.php`) with a button and the Global Payments JS SDK included. Upon clicking the button, the JS SDK populates an iframe with the hosted payment page.
 
 Upon successful payment, the iframe posts a message back to the SDK allowing us to alert the user that their payment has been successful or failed.
+
+### Resources
+
+* [Information on Global Payments' Hosted Payment Page](https://developer.globalpay.com/ecommerce/hosted-payment-page#hpp)
+* [Global Payments' front-end Realex JS SDK](https://github.com/globalpayments/rxp-js)
+* [Global Payments' PHP SDK](https://developer.globalpay.com/php)
