@@ -1,0 +1,7 @@
+{
+    "require": {
+        "globalpayments/php-sdk": "^2.2",
+        "vlucas/phpdotenv": "^5.3",
+        "rakit/validation": "^1.4"
+    }
+}
