@@ -8,7 +8,6 @@ if(isset($_POST) && !empty($_POST) && $_POST['hppResponse']) {
     $response = processResponse();
 
     require_once(__DIR__.'/includes/complete.php');
-    
 } else if (validate()) {
     try {
         $json = dispatch();
