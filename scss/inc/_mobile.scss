@@ -1,0 +1,130 @@
+@media only screen and (max-width: 1024px) {
+
+  .wrapper-width, form header {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  form {
+    .form-inner {
+      fieldset {
+        margin: 0;
+        &.customer-details {
+          margin: 0 20px;
+          label {
+            width: calc(50% - 15px);
+          }
+        }
+        &.company-address {
+          margin: 0 0 0 20px;
+          padding-right: 25px;
+          label {
+            width: calc(100% - 5px);
+          }
+        }
+        &.billing-details {
+          label {
+            width: calc(100% - 5px);
+          }
+        }
+      }
+    }
+  }
+
+  .iframe-page--footer {
+    .footer-inner.wrapper-width {
+      font-size: 0;
+      padding-left: 30px;
+      button.iframe-page--amend-button {
+        width: calc(50% - 17px);
+      }
+      input.iframe-page--checkout-button {
+        width: calc(50% - 17px);
+        margin-left: 25px;
+      }
+    }
+  }
+
+  footer.page-footer .wrapper {
+    padding: 0 30px;
+  }
+
+}
+@media only screen and (max-width: 580px) {
+
+  img.hp_logo {
+    width: 147px;
+  }
+
+  .contact-header .wrapper p {
+    display: inline-block;
+    width: 100%;
+    span {
+      display: inline-block;
+      width: 85px;
+      text-align: left;
+    }
+  }
+
+  .foot_left, .foot_right {
+    width: 100%;
+    text-align: center;
+  }
+  .foot_right {
+    margin-top: 30px;
+  }
+
+  form .form-inner {
+    fieldset {
+      &.customer-details label {
+        width: 100%;
+        padding: 0 !important;
+      }
+
+      &.company-address {
+        width: calc(100% - 40px);
+        max-width: calc(100% - 40px);
+        display: block;
+        padding: 0;
+        margin: 0 20px;
+
+        label {
+          width: 100%;
+        }
+      }
+    }
+    .billing-details--wrapper {
+      width: calc(100% - 40px);
+      max-width: calc(100% - 40px);
+      display: block;
+      padding: 0;
+      margin: 0 20px;
+      .billing-details--title label {
+        height: 40px;
+        font-size: 14px;
+      }
+      fieldset.billing-details {
+        label {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .iframe-page--footer .footer-inner.wrapper-width {
+    padding-left: 20px;
+    button.iframe-page--amend-button, input.iframe-page--checkout-button {
+      font-size: 14px;
+      width: calc(50% - 10px);
+    }
+    input.iframe-page--checkout-button {
+      margin-left: 20px;
+    }
+  }
+
+  iframe#paymentWindow {
+    height: 600px;
+    min-height: 600px;
+  }
+
+  //*{outline: 1px solid red;}
+
+} // end of media query

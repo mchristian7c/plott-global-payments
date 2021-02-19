@@ -1,0 +1,91 @@
+fieldset {
+  border: none;
+  padding: 0;
+  &.company-address {
+    padding-right: 30px;
+    width: calc(50% - 30px);
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    label {
+      width: 100%;
+      float: left;
+    }
+  }
+  &.customer-details {
+    label {
+      width: calc(50% - 30px);
+      float: left;
+      padding-right: 15px;
+      &:nth-of-type(even) {
+        padding-right: 0;
+        padding-left: 15px;
+      }
+      input {
+        width: 100%;
+      }
+    }
+  }
+  h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 26px;
+    margin: 20px 0 40px 0;
+    color: $lime;
+    font-family: $alfa;
+    font-weight: $reg;
+  }
+}
+form {
+  background-color: $sand;
+  margin: 0;
+  header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+    p {
+      max-width: 1000px;
+      margin: 0 auto 20px;
+      font-size: 18px;
+    }
+  }
+  .form-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+}
+.billing-details--wrapper {
+  width: calc(50% - 30px);
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+
+  label {
+    width: 100%;
+    float: left;
+    input[type="text"] {
+      width: 100%;
+    }
+  }
+}
+
+.billing-details--title {
+  h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 26px;
+    margin: 20px 0 10px 0;
+    color: $lime;
+    font-family: $alfa;
+    font-weight: $reg;
+  }
+  label {
+    color: rgba(0,0,0,0.5);
+    height: 20px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+  }
+}

@@ -1,0 +1,508 @@
+p, label {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #0b3161; }
+
+.complete-wrapper {
+  background-color: #e6e6df;
+  height: calc(100vh - 639px);
+  min-height: 300px; }
+  .complete-wrapper h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 26px;
+    margin: 20px 0 40px 0;
+    color: #84c238;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400; }
+
+img.hp_logo {
+  width: 228px;
+  padding-top: 10px;
+  max-width: 228px;
+  padding-bottom: 17px; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer; }
+
+.wrapper-width {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 25px; }
+
+.contact-header {
+  background: #F2F2F0;
+  clear: left; }
+
+.wrapper.phones {
+  clear: left;
+  text-align: center;
+  padding: 15px 0 16px 0;
+  font-size: 0; }
+  .wrapper.phones.wrapper-width {
+    max-width: 1060px; }
+
+.contact-header .wrapper p span {
+  display: block; }
+
+.contact-header .wrapper p {
+  display: inline-block;
+  font-size: 12px;
+  color: #063966;
+  font-weight: 600;
+  text-align: center;
+  width: 25%;
+  margin: 0; }
+
+@media only screen and (max-width: 768px) {
+  .contact-header .wrapper p {
+    display: inline-block;
+    width: 25%; }
+  .contact-header .wrapper p span {
+    display: block;
+    width: 100%;
+    text-align: center; }
+  .contact-header .wrapper p a {
+    display: inline-block;
+    width: 125px;
+    text-align: left; } }
+
+.contact-header .wrapper p:last-of-type {
+  margin-right: 0; }
+
+.contact-header .wrapper p a {
+  color: #89C731; }
+
+.banner_top {
+  background: url("https://www.freightport.co.uk/wp-content/themes/freightport/images/banner_top_bk.jpg") no-repeat center;
+  background-size: auto;
+  background-size: cover;
+  width: 100%;
+  height: 150px; }
+  .banner_top .wrapper {
+    max-width: 1000px;
+    margin: 0 auto; }
+
+.banner_title {
+  text-transform: uppercase;
+  color: #fff;
+  padding: 58px 0 0 25px;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif; }
+
+.logo {
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle; }
+
+.logo-wrap {
+  font-size: 0; }
+
+.home_button {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+  padding-bottom: 25px; }
+  .home_button a {
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #89C731;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 5px;
+    font-size: 14px; }
+    .home_button a span {
+      font-size: 20px;
+      margin: 0 5px 0 0; }
+
+/************************************
+*			FOOTER 					*
+*************************************/
+footer.page-footer {
+  background: #0b3161;
+  width: 100%;
+  padding: 45px 0 80px;
+  color: #fff;
+  line-height: 30px;
+  overflow: auto; }
+  footer.page-footer .wrapper {
+    max-width: 1000px;
+    margin: 0 auto; }
+  footer.page-footer p {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: white; }
+    footer.page-footer p.links {
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+      color: white; }
+      footer.page-footer p.links a {
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        color: white; }
+
+footer h3 {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #84c238;
+  margin: 0; }
+
+.foot_left, .foot_right {
+  float: left; }
+
+.foot_left p, .foot_left h3 {
+  font-size: 15px; }
+
+.foot_right p, .foot_right h3 {
+  font-size: 15px; }
+
+.foot_right .imgwrap {
+  margin-bottom: 40px; }
+
+.foot_right h3, .foot_right p.rha {
+  display: inline-block;
+  vertical-align: middle; }
+
+.foot_right p.rha {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 400; }
+
+.foot_right h3 {
+  margin-right: 5px; }
+
+.foot_left img {
+  width: 220px;
+  height: auto;
+  margin-top: 3px;
+  margin-bottom: 40px; }
+
+.foot_left {
+  width: 50%; }
+
+.foot_mid ul li:last-child {
+  padding-right: 0; }
+
+.foot_right {
+  width: 50%;
+  text-align: right; }
+
+.foot_right img {
+  width: 89px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px; }
+
+.foot_left p a:hover {
+  color: #84c238; }
+
+fieldset {
+  border: none;
+  padding: 0; }
+  fieldset.company-address {
+    padding-right: 30px;
+    width: calc(50% - 30px);
+    display: inline-block;
+    margin: 0;
+    vertical-align: top; }
+    fieldset.company-address label {
+      width: 100%;
+      float: left; }
+  fieldset.customer-details label {
+    width: calc(50% - 30px);
+    float: left;
+    padding-right: 15px; }
+    fieldset.customer-details label:nth-of-type(even) {
+      padding-right: 0;
+      padding-left: 15px; }
+    fieldset.customer-details label input {
+      width: 100%; }
+  fieldset h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 26px;
+    margin: 20px 0 40px 0;
+    color: #84c238;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400; }
+
+form {
+  background-color: #e6e6df;
+  margin: 0; }
+  form header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: white; }
+    form header p {
+      max-width: 1000px;
+      margin: 0 auto 20px;
+      font-size: 18px; }
+  form .form-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 0;
+    padding-top: 50px;
+    padding-bottom: 100px; }
+
+.billing-details--wrapper {
+  width: calc(50% - 30px);
+  display: inline-block;
+  margin: 0;
+  vertical-align: top; }
+  .billing-details--wrapper label {
+    width: 100%;
+    float: left; }
+    .billing-details--wrapper label input[type="text"] {
+      width: 100%; }
+
+.billing-details--title h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 26px;
+  margin: 20px 0 10px 0;
+  color: #84c238;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+.billing-details--title label {
+  color: rgba(0, 0, 0, 0.5);
+  height: 20px;
+  line-height: 20px;
+  margin: 0 0 10px 0; }
+
+fieldset label input[type="text"], fieldset label input[type="number"], fieldset label input[type="email"] {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  font-size: 13px;
+  border: none;
+  border-radius: 0; }
+  fieldset label input[type="text"]:focus, fieldset label input[type="number"]:focus, fieldset label input[type="email"]:focus {
+    outline: 0; }
+
+form.iframe-page fieldset label input[type="text"], form.iframe-page fieldset label input[type="number"], form.iframe-page fieldset label input[type="email"] {
+  background: rgba(255, 255, 255, 0.3);
+  outline: 2px solid white; }
+
+::-webkit-input-placeholder {
+  /* Chrome */
+  color: rgba(118, 118, 118, 0.6) !important; }
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgba(118, 118, 118, 0.6) !important; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(118, 118, 118, 0.6) !important;
+  opacity: 1 !important; }
+
+:-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: rgba(118, 118, 118, 0.6) !important;
+  opacity: 1 !important; }
+
+:-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: rgba(118, 118, 118, 0.6) !important;
+  opacity: 1 !important; }
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  /* Chrome */
+  color: rgba(118, 118, 118, 0.2) !important; }
+
+input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgba(118, 118, 118, 0.2) !important; }
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(118, 118, 118, 0.2) !important;
+  opacity: 1 !important; }
+
+input:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: rgba(118, 118, 118, 0.2) !important;
+  opacity: 1 !important; }
+
+input:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: rgba(118, 118, 118, 0.2) !important;
+  opacity: 1 !important; }
+
+form footer {
+  padding-top: 25px;
+  text-align: center; }
+  form footer button {
+    padding: 0;
+    border: 2px solid #0b3161;
+    color: #0b3161;
+    text-transform: uppercase;
+    width: calc(50% - 30px);
+    box-sizing: border-box;
+    height: 50px;
+    line-height: 50px;
+    background: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin: 0 auto; }
+    form footer button:hover {
+      color: #84c238;
+      border-color: #84c238; }
+
+button.iframe-page--amend-button {
+  padding: 0;
+  border: 2px solid #0b3161;
+  color: #0b3161;
+  text-transform: uppercase;
+  width: calc(50% - 30px);
+  box-sizing: border-box;
+  height: 50px;
+  line-height: 50px;
+  background: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif; }
+  button.iframe-page--amend-button:hover {
+    color: #84c238;
+    border-color: #84c238; }
+  button.iframe-page--amend-button span {
+    font-size: 25px;
+    margin: -2px 5px 0 0;
+    display: inline-block;
+    vertical-align: top; }
+
+.iframe-page .form-inner {
+  padding-bottom: 0; }
+
+.iframe-page--footer {
+  background-color: #e6e6df;
+  padding-bottom: 50px; }
+
+input.iframe-page--checkout-button {
+  color: #ffffff;
+  background-color: #84c238;
+  border: 2px solid #84c238;
+  padding: 0;
+  text-transform: uppercase;
+  width: calc(50% - 30px);
+  box-sizing: border-box;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 0 30px;
+  appearance: none;
+  border-radius: 0; }
+  input.iframe-page--checkout-button:hover {
+    border: 2px solid #ffffff;
+    color: #84c238;
+    background-color: #ffffff; }
+
+iframe#paymentWindow {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  width: 100%;
+  height: 500px;
+  min-height: 500px;
+  border: none; }
+
+@media only screen and (max-width: 1024px) {
+  .wrapper-width, form header {
+    padding-left: 20px;
+    padding-right: 20px; }
+  form .form-inner fieldset {
+    margin: 0; }
+    form .form-inner fieldset.customer-details {
+      margin: 0 20px; }
+      form .form-inner fieldset.customer-details label {
+        width: calc(50% - 15px); }
+    form .form-inner fieldset.company-address {
+      margin: 0 0 0 20px;
+      padding-right: 25px; }
+      form .form-inner fieldset.company-address label {
+        width: calc(100% - 5px); }
+    form .form-inner fieldset.billing-details label {
+      width: calc(100% - 5px); }
+  .iframe-page--footer .footer-inner.wrapper-width {
+    font-size: 0;
+    padding-left: 30px; }
+    .iframe-page--footer .footer-inner.wrapper-width button.iframe-page--amend-button {
+      width: calc(50% - 17px); }
+    .iframe-page--footer .footer-inner.wrapper-width input.iframe-page--checkout-button {
+      width: calc(50% - 17px);
+      margin-left: 25px; }
+  footer.page-footer .wrapper {
+    padding: 0 30px; } }
+
+@media only screen and (max-width: 580px) {
+  img.hp_logo {
+    width: 147px; }
+  .contact-header .wrapper p {
+    display: inline-block;
+    width: 100%; }
+    .contact-header .wrapper p span {
+      display: inline-block;
+      width: 85px;
+      text-align: left; }
+  .foot_left, .foot_right {
+    width: 100%;
+    text-align: center; }
+  .foot_right {
+    margin-top: 30px; }
+  form .form-inner fieldset.customer-details label {
+    width: 100%;
+    padding: 0 !important; }
+  form .form-inner fieldset.company-address {
+    width: calc(100% - 40px);
+    max-width: calc(100% - 40px);
+    display: block;
+    padding: 0;
+    margin: 0 20px; }
+    form .form-inner fieldset.company-address label {
+      width: 100%; }
+  form .form-inner .billing-details--wrapper {
+    width: calc(100% - 40px);
+    max-width: calc(100% - 40px);
+    display: block;
+    padding: 0;
+    margin: 0 20px; }
+    form .form-inner .billing-details--wrapper .billing-details--title label {
+      height: 40px;
+      font-size: 14px; }
+    form .form-inner .billing-details--wrapper fieldset.billing-details label {
+      width: 100%; }
+  .iframe-page--footer .footer-inner.wrapper-width {
+    padding-left: 20px; }
+    .iframe-page--footer .footer-inner.wrapper-width button.iframe-page--amend-button, .iframe-page--footer .footer-inner.wrapper-width input.iframe-page--checkout-button {
+      font-size: 14px;
+      width: calc(50% - 10px); }
+    .iframe-page--footer .footer-inner.wrapper-width input.iframe-page--checkout-button {
+      margin-left: 20px; }
+  iframe#paymentWindow {
+    height: 600px;
+    min-height: 600px; } }

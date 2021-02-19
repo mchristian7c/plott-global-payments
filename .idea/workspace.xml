@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37f35cd4-3804-4942-a0f3-55333a686bf0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/includes/complete.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/complete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/iframe.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/iframe.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/globalpayments/php-sdk" />
+      <path value="$PROJECT_DIR$/vendor/rakit/validation" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1oeHTHU8kUWbHCsMVZm1HzPhWlz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scss/inc" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37f35cd4-3804-4942-a0f3-55333a686bf0" name="Default Changelist" comment="" />
+      <created>1613640141702</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613640141702</updated>
+      <workItem from="1613640143074" duration="1866000" />
+      <workItem from="1613657692572" duration="8744000" />
+      <workItem from="1613725977677" duration="10105000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1505" y="738" key="#Composer" timestamp="1613640163210">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1505" y="738" key="#Composer/0.23.2560.1417@0.23.2560.1417" timestamp="1613640163210" />
+    <state width="1283" height="265" key="GridCell.Tab.0.bottom" timestamp="1613697393006">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1283" height="265" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1613697393006" />
+    <state width="1283" height="265" key="GridCell.Tab.0.center" timestamp="1613697393005">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1283" height="265" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1613697393005" />
+    <state width="1283" height="265" key="GridCell.Tab.0.left" timestamp="1613697393005">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1283" height="265" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1613697393005" />
+    <state width="1283" height="265" key="GridCell.Tab.0.right" timestamp="1613697393006">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state width="1283" height="265" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1613697393006" />
+    <state x="1016" y="412" key="run.anything.popup" timestamp="1613730002633">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1016" y="412" key="run.anything.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1613730002633" />
+  </component>
+</project>

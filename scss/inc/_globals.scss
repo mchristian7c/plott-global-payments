@@ -1,0 +1,21 @@
+p, label {
+  font-family: $alfa;
+  font-weight: $reg;
+  font-size: 15px;
+  color: $font;
+}
+
+.complete-wrapper {
+  h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 26px;
+    margin: 20px 0 40px 0;
+    color: $lime;
+    font-family: $alfa;
+    font-weight: $reg;
+  }
+  background-color: $sand;
+  height: calc(100vh - 639px);
+  min-height: 300px;
+}
